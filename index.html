@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & Roll</h2>
+                <p>Agosto 2023, California, México</p>
+            </div>
+        </div>
+        <video autoplay loop muted >
+            <source src="video/concierto.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="Imagen Vocalista Festival">
+            </picture>
+            
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & Roll</h2>
+            <p class="fecha">Agosto 2023 Kansas, México</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quaerat aspernatur nihil vitae veniam quisquam, eius repellat illo, itaque ex corrupti odit inventore exercitationem ipsum adipisci laudantium sapiente necessitatibus?</p>
+        </div>
+    </section>
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="escenario-contenedor contenedor">
+            
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        18:00 | <span>Rockddre</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Linasda</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Dasres</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Makeretfs</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tijuandres</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Leamsdae</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        18:00 | <span>Rockddre</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Linasda</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Dasres</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Makeretfs</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tijuandres</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Leamsdae</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <p class="dia">Sábado 22</p>
+        <div class="escenario-contenedor contenedor">
+            
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        18:00 | <span>Rockddre</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Linasda</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Dasres</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Makeretfs</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tijuandres</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Leamsdae</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        18:00 | <span>Rockddre</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Linasda</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Dasres</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Makeretfs</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tijuandres</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Leamsdae</span>
+                    </li>
+                </ul>
+            </div>
+            </div>
+    </section>
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor contenedor-boletos">
+        <div class="basico pase">
+            <p class="nombre-pase">Pase 1 Día</p>
+            <header class="pase-header">
+                <p>Incluye</p>
+            </header>
+            <div class="pase-body">
+                <ul>
+                    <li>Acceso a ambos escenarios</li>
+                    <li>Comida y Bebida</li>
+                </ul>
+            </div>
+            <footer class="pase-footer">
+                <p>$100</p>
+            </footer>
+        </div>
+
+        <div class="premium pase">
+            <p class="nombre-pase">Pase 2 Días</p>
+            <header class="pase-header">
+                <p>Incluye</p>
+            </header>
+            <div class="pase-body">
+                <ul>
+                    <li>Acceso a ambos escenarios</li>
+                    <li>Comida y Bebida</li>
+                    <li>Camisa del Evento</li>
+                    <li>Acceso VIP</li>
+                </ul>
+            </div>
+            <footer class="pase-footer">
+                <p>$180</p>
+            </footer>
+
+        </div>
+    </div>
+    </section>
+    <footer class="site-footer">
+        <p>Rpck & asfhj Festiv. Todos los derechos reservados</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
